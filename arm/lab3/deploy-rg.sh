@@ -1,5 +1,5 @@
 REGION_NAME=eastus
-RESOURCE_GROUP=iaclab2-$RANDOM
+RESOURCE_GROUP=johntest-$RANDOM
 
 az login --service-principal -u $1 -p $2 --tenant $3
 
